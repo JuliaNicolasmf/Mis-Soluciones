@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+int main() {
+//julian nicolas
+ int l;
+
+ cin>>l;
+while (l<0 || l > 99)
+ cin>>l;
+
+
+    if(l<=3&&l>=0)
+  cout<<"BEBE"<<endl;
+
+if(l<=14&&l>=4)
+  cout<<"NINO"<<endl;
+
+
+  if(l<=18&&l>=15)
+  cout<<"JOVEN"<<endl;
+
+if(l<=65&&l>=19)
+  cout<<"ADULTO"<<endl;
+
+
+if(l<=99&&l>=65)
+  cout<<"ADULTO 3RA";
+
+
+  return 0;
