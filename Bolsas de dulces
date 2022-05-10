@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+//julian nicolas
+int main(){
+   int N = 0, x=0, a, b;
+   int t = 0;
+   cin >> N;
+   if (N < 0 or N > 10000)
+      exit(1);
+   while(x < N){
+      cin >> a  >> b;
+      t = t + (a * b);
+      x++;
+   }
+   cout << t;
+   return 0;
+}
